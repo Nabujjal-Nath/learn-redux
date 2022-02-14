@@ -10,10 +10,10 @@ function App() {
       <header >
         <p> Learn Redux </p>
       </header>
-      <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center" }} >
-        <button onClick={() => { dispatch(decrement()) }} >-</button>
+      <div className="plusMinus">
+        <button className="btn" onClick={() => { dispatch(decrement()) }} >-</button>
         <input value={appState} />
-        <button onClick={() => { dispatch(increment()) }}>+</button>
+        <button className="btn" onClick={() => { dispatch(increment()) }}>+</button>
       </div>
 
     </div>
