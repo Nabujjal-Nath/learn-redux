@@ -1,4 +1,5 @@
-const incrementDecrement = (state = 0, action) => {
+const initialstate = 10;
+const incrementDecrement = (state = initialstate, action) => {
     switch (action.type) {
         case "INCREMENT": return state + 1;
         case "DECREMENT": return state - 1;

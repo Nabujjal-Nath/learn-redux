@@ -1,7 +1,7 @@
-import incDecReducer from "./incDec"
+import incrementDecrement from "./incDec"
 
 import { combineReducers } from "redux"
 const rootReducer = combineReducers({
-    incDecReducer
+    incrementDecrement
 })
 export default rootReducer;
